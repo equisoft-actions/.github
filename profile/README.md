@@ -8,7 +8,7 @@ Regroups `docker-sast` and `docker-sbom` actions to run on a published Docker im
 
 ### [kotlin-workflows](https://github.com/equisoft-actions/kotlin-workflows)
 
-#### [Micronaut-gradle](https://github.com/equisoft-actions/js-workflows/blob/main/.github/workflows/webapp-frontend.yml)
+#### [Micronaut-gradle](https://github.com/equisoft-actions/kotlin-workflows/blob/main/.github/workflows/micronaut-gradle.yml)
 
 Runs various checks for Kotlin code (e.g. static analysis, license check, tests, etc.). Can also build and push docker
 images.
