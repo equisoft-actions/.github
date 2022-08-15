@@ -12,7 +12,7 @@
     "before 5am every weekday",
     "every weekend"
   ],
-  "packageRules: [
+  "packageRules": [
     {
       "matchManagers": ["github-actions"],
       "groupName": "Github actions"
