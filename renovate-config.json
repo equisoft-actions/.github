@@ -1,33 +1,7 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "local>kronostechnologies/standards:renovate-config"
   ],
-  "automerge": false,
-  "platformAutomerge": true,
-  "reviewers": ["team:harmonie"],
-  "labels": ["dependency-update"],
-  "rebaseWhen": "conflicted",
-  "schedule": [
-    "after 10pm every weekday",
-    "before 5am every weekday",
-    "every weekend"
-  ],
-  "packageRules": [
-    {
-      "matchManagers": ["github-actions"],
-      "groupName": "Github actions"
-    }
-  ],
-  "js": {
-    "packageRules": [
-      {
-        "matchUpdateTypes": ["minor"],
-        "groupName": "Yarn minors"
-      },
-      {
-        "matchUpdateTypes": ["patch"],
-        "groupName": "Yarn patches"
-      }
-    ]
-  }
+  "reviewers": ["team:harmonie"]
 }
