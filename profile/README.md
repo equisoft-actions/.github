@@ -15,6 +15,10 @@ images.
 
 ### [php-workflows](https://github.com/equisoft-actions/php-workflows)
 
+#### [PHP Application](https://github.com/equisoft-actions/php-workflows/blob/main/.github/workflows/php-app.yml)
+
+Runs various checks for PHP code (e.g. phpcs, psalm) and optional frontend code (e.g. eslint, mocha).
+
 #### [PHP Library](https://github.com/equisoft-actions/php-workflows/blob/main/.github/workflows/php-library.yml)
 
 Runs various checks for PHP code (e.g. phpcs, psalm).
