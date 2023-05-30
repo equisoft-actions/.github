@@ -57,7 +57,7 @@ Resolves common application metadata like the application version or whether it 
 
 ### [jacoco-report](https://github.com/equisoft-actions/jacoco-report) DEPRECATED
 
-Replaced by upstream action : https://github.com/Madrapps/jacoco-report
+Replaced by upstream action : [madrapps/jacoco-report](https://github.com/Madrapps/jacoco-report)
 
 Publishes the JaCoCo report as a comment in the Pull Request.
 
