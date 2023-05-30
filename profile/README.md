@@ -13,6 +13,10 @@ Regroups `docker-sast` and `docker-sbom` actions to run on a published Docker im
 Runs various checks for Kotlin code (e.g. static analysis, license check, tests, etc.). Can also build and push docker
 images.
 
+#### [Micronaut-gradle-library](https://github.com/equisoft-actions/kotlin-workflows/blob/main/.github/workflows/micronaut-gradle-library.yml)
+
+Runs various checks for Kotlin code (e.g. static analysis, license check, tests, etc.). Can also publish library to maven repository.
+
 ### [php-workflows](https://github.com/equisoft-actions/php-workflows)
 
 #### [PHP Application](https://github.com/equisoft-actions/php-workflows/blob/main/.github/workflows/php-app.yml)
@@ -51,7 +55,9 @@ Runs various checks for JS code (e.g. eslint, stylelint, tests, etc.). Can also 
 
 Resolves common application metadata like the application version or whether it is publishable (by our standards).
 
-### [jacoco-report](https://github.com/equisoft-actions/jacoco-report)
+### [jacoco-report](https://github.com/equisoft-actions/jacoco-report) DEPRECATED
+
+Replaced by upstream action : https://github.com/Madrapps/jacoco-report
 
 Publishes the JaCoCo report as a comment in the Pull Request.
 
