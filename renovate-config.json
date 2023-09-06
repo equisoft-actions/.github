@@ -1,7 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>kronostechnologies/standards:renovate-config"
-  ],
-  "reviewers": ["team:harmonie"]
+  "extends": ["local>kronostechnologies/renovate-config"],
+  "reviewers": ["team:harmony"]
 }
