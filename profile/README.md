@@ -35,7 +35,7 @@ Runs various checks for Python repos that uses Pipenv (e.g. unit tests, type che
 
 #### [Python Security](https://github.com/equisoft-actions/python-workflows/blob/main/.github/workflows/python-security.yml)
 
-Regroups `scan-secrets`, `semgrep` and `pipenv-sbom` actions.
+Wraps CodeQL actions.
 
 ### [js-workflows](https://github.com/equisoft-actions/js-workflows)
 
@@ -69,10 +69,6 @@ Downloads asdf-vm with cache. Initialize JAVA_HOME if java is specified in `.too
 
 Scans commits for leaked secrets. By default, pull request events will only scan new commits and push events will scan
 all commits.
-
-### [semgrep](https://github.com/equisoft-actions/semgrep)
-
-Utilizes Semgrep (SAST) to generate a SARIF report. The report is archived and uploaded to Defect Dojo.
 
 ## Docker
 
