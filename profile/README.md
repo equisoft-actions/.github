@@ -126,10 +126,6 @@ Utilizes CycloneDX to generate a SBOM. This SBOM will then be archived and uploa
 
 Runs GoKart to generate a SAST report of your codebase. Results are published to DefectDojo.
 
-### [golang-sbom](https://github.com/equisoft-actions/golang-sbom)
-
-Utilizes cyclonedx-gomod to generate a SBOM. This SBOM will then be archived and uploaded to Dependency-Track.
-
 ## PHP
 
 ### [composer](https://github.com/equisoft-actions/composer)
