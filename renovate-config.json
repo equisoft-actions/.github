@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["local>kronostechnologies/renovate-config:base.json5"],
+  "reviewers": ["team:harmony"],
+  "hostRules": [
+    {
+      "hostType": "git-tags",
+      "matchHost": "github.com",
+      "token": "{{ secrets.GITHUB_TOKEN }}"
+    },
+    {
+      "hostType": "github-tags",
+      "matchHost": "https://api.github.com/repos/equisoft-actions/",
+      "token": "{{ secrets.GITHUB_TOKEN }}"
+    },
+    {
+      "hostType": "github-changelog",
+      "matchHost": "https://api.github.com/repos/equisoft-actions/",
+      "token": "{{ secrets.GITHUB_TOKEN }}"
+    }
+  ]
+}
