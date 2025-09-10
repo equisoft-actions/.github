@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>kronostechnologies/renovate-config:base.json5"],
-  "reviewers: ["team:harmony"],
+  "reviewers": ["team:harmony"],
   "hostRules": [
     {
       "hostType": "git-tags",
