@@ -4,7 +4,7 @@
   "reviewers: ["team:harmony"],
   "hostRules": [
     {
-      "hostTyp"e: "git-tags",
+      "hostType": "git-tags",
       "matchHost": "github.com",
       "token": "{{ secrets.GITHUB_TOKEN }}"
     },
